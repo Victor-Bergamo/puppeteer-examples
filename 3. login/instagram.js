@@ -29,6 +29,7 @@ const screenshot = 'instagram.png';
 
 	//the selector of the "Login" button
 	// await page.click("._0mzm-.sqdOP.L3NKy>.Igw0E.IwRSH.eGOV_._4EzTm");
+	// or await page.click(".sqdOP.L3NKy.y3zKF");
 	
 	//we find the Login btn using the innerText comparison because the selector used for the btn might be unstable
 	await page.evaluate(() => {
